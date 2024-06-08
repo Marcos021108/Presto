@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    gap: 150px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+li,ul{
+    display: flex;
+}
+li{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px)
+    .menu-icon {
+        display: block;
+        padding-right: 10px;
+}
