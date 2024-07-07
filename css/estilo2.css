@@ -44,7 +44,8 @@ a{
     text-decoration: none;
     color: #000000
 }
-
-.rodapé{
+.rodape{
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
