@@ -71,7 +71,9 @@ footer img{
 h2{
     color: rgb(0, 0, 0);
     font-size: 70px;
+    padding-bottom: 5%;
 }
 h2 span{
     color: rgb(255, 165, 0);
 }
+
