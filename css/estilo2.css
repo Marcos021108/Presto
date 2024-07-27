@@ -56,6 +56,8 @@ footer img{
     padding-right: 10%;
     align-items: center;
     gap: 10px;
+    justify-content: center;
+    gap: 110px;
 }
 
 .filha1 img{
