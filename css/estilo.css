@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 120px 16px 120px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+h1{
+    font-style: 48px;
+}
+
+img{
+    width: 50px;
+    height: auto;
+}
+
+.menu{
+    display: flex;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    padding: 16px 0;
+    list-style: none;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+    color: #000000
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    width: 110px;
+    height: auto;
+}
+.container{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    gap: 110px;
+}
+
+.filha1 img{
+    width: 130px;
+    height: 22px;
+}
+
+.filha1 h2{
+    color: rgb(0, 0, 0);
+    font-size: 96px;
+    font-weight: 400;
+}
+
+.filha1 h2 span{
+    color: #D95204;
+    font-weight: 700;
+}
+
+.filha1 p{
+    font-size: 15px;
+}
+
+.filha2 img{
+    width: 512px;
+    height: auto;
+
+}
+
