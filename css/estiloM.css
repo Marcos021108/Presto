@@ -56,7 +56,8 @@ footer img{
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding: 24px 120px 24px 120px;
     gap: 32px;
     align-items: center;
@@ -72,24 +73,18 @@ footer img{
     width: 139px;
 }
 
-.dinheiro p{
-    height: 17px;
-    width: 48px;
-}
-
 .prato1{
-    width: 219px;
-    height: 260px;
     padding: 24px 32px 24px 32px;
     gap: 10px;
     border-radius: 8px 0px 0px 0px;
     opacity: 0px; 
 }
 
-.ccontainer2{
-    display: flex;
-    justify-content: center;
-    padding: 24px 120px 24px 120px;
-    gap: 32px;
-    align-items: center;
+.dinheiro{
+    color: #28A900;
+}
+
+.dinheiro button{
+    background: #29293B;
+    color: #FFFFFF;
 }
