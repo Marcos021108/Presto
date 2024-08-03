@@ -53,3 +53,43 @@ footer img{
     width: 110px;
     height: auto;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 24px 120px 24px 120px;
+    gap: 32px;
+    align-items: center;
+}
+
+.prato1 img{
+    width: 150px;
+    height: 150px;
+}
+
+.prato1 p{
+    height: 17px;
+    width: 139px;
+}
+
+.dinheiro p{
+    height: 17px;
+    width: 48px;
+}
+
+.prato1{
+    width: 219px;
+    height: 260px;
+    padding: 24px 32px 24px 32px;
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px; 
+}
+
+.ccontainer2{
+    display: flex;
+    justify-content: center;
+    padding: 24px 120px 24px 120px;
+    gap: 32px;
+    align-items: center;
+}
