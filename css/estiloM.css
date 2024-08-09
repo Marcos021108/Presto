@@ -5,6 +5,10 @@
     font-family: "inter", sans-serif;
 }
 
+body{
+    background-color: #F2F2F2;
+}
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
@@ -72,6 +76,7 @@ footer img{
     padding: 24px 32px 24px 32px;
     gap: 10px;
     border-radius: 8px 0px 0px 0px;
+    background-color: #ffffff;
 }
 
 .dinheiro{
