@@ -5,6 +5,10 @@
     font-family: "inter", sans-serif;
 }
 
+body{
+    background-color: #F2F2F2;
+}
+
 .cabecalho{
     display: flex;
     justify-content: space-between;

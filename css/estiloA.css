@@ -5,6 +5,10 @@
     font-family: "inter", sans-serif;
 }
 
+body{
+    background-color: #F2F2F2;
+}
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
@@ -53,3 +57,48 @@ footer img{
     width: 110px;
     height: auto;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 24px 120px 24px 120px;
+    gap: 40px;
+}
+
+.filhaA{
+    gap: 18px;
+}
+.filhaA button{
+    background:#353535;
+    color: #FFFFFF;
+    padding: 8px, 24px, 8px, 24px;
+    gap: 10px;
+}
+
+.filhaA p{
+    gap: 8px;
+}
+
+.filhaA h2{
+    width: 228px;
+    height: 53px;
+}
+
+.filhaAa{
+    width: 121px;
+    height: 75px;
+    gap: 18px; 
+}
+
+.filhaAa img{
+    width: 24px;
+     height: 24px;
+}
+
+.filhaB img{
+    width: 560px;
+    height: 315px;
+}
+
