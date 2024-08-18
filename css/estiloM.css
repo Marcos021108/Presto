@@ -78,8 +78,14 @@ footer img{
     background-color: #ffffff;
 }
 
+.prato1 p{
+    font-weight: 600;
+}
+
 .dinheiro{
     color: #28A900;
+    display: flex;
+    gap: 10px;
 }
 
 .dinheiro button{
