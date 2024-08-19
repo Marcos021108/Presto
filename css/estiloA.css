@@ -61,7 +61,7 @@ footer img{
 .container{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 40px;
     justify-content: center;
     padding: 24px 120px 24px 120px;
     gap: 40px;
@@ -74,11 +74,20 @@ footer img{
     background:#353535;
     color: #FFFFFF;
     padding: 8px, 24px, 8px, 24px;
+    width: 121px;
+    height: 33px;
     gap: 10px;
 }
 
+.filhaA button h2{
+    font-weight: 600;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+}
+
 .filhaA p{
-    gap: 8px;
+    gap: 32px;
 }
 
 .filhaA h2{
@@ -94,11 +103,10 @@ footer img{
 
 .filhaAa img{
     width: 24px;
-     height: 24px;
+    height: 24px;
 }
 
 .filhaB img{
     width: 560px;
     height: 315px;
 }
-
