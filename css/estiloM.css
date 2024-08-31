@@ -62,7 +62,7 @@ footer img{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 24px 200px 24px 200px ;
+    padding: 24px 120px 24px 120px;
     gap: 32px;
 }
 
@@ -74,21 +74,27 @@ footer img{
 .prato1{
     padding: 24px 32px 24px 32px;
     gap: 10px;
-    border-radius: 8px 0px 0px 0px;
+    border-radius: 8px;
     background-color: #ffffff;
 }
 
 .prato1 p{
     font-weight: 600;
+    gap: 10px;
 }
 
 .dinheiro{
     color: #28A900;
     display: flex;
     gap: 10px;
+    align-items: center;
+    padding-top: 10px;
 }
 
 .dinheiro button{
-    background: #29293B;
+    background-color: #29293B;
     color: #FFFFFF;
+    padding: 4px 11px 4px 11px;
+    gap: 10px;
+    border-radius: 4px;
 }
