@@ -57,3 +57,58 @@ footer img{
     width: 110px;
     height: auto;
 }
+
+.pai{
+    padding: 24px 120px 24px 120px;
+    gap: 40px;
+}
+
+.filho{
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background: #FFFFFF;
+}
+
+.filho h3{
+    padding-bottom: 13px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+input{
+    background: #DCE7EA;
+    color: #939393;
+    padding: 16px ;
+    gap: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+textarea{
+    background: #DCE7EA;
+    color: #939393;
+    padding: 16px;
+    gap: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 10px;
+
+}
+
+.principal{
+    display: flex;
+    gap: 16px;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 400;
+}
