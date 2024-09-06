@@ -82,6 +82,7 @@ footer img{
 
 .filhaA p{
     gap: 8px;
+    padding-bottom: 12px;
 }
 
 .filhaA h2{
@@ -93,8 +94,10 @@ footer img{
     width: 121px;
     height: 75px;
     gap: 18px; 
-    width: 100%;
-    max-width: 121px;
+}
+
+.abraco{
+    padding-top: 12px;
 }
 
 .filhaAa img{
