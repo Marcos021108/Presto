@@ -91,11 +91,18 @@ footer img{
 }
 
 .filhaA h2{
-    width: 228px;
     height: 53px;
     font-family: Inter;
     font-size: 44px;
     font-weight: 600;
+}
+
+.tamanho{
+    font-weight: 500;
+}
+
+.cor{
+    color:  #353535;
 }
 
 .filhaAa{
@@ -105,7 +112,9 @@ footer img{
 }
 
 .abraco{
-    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .filhaAa img{
@@ -116,4 +125,11 @@ footer img{
 .filhaB img{
     width: 560px;
     height: 315px;
+}
+
+.space{
+    padding-top: 12px;
+    padding-left: 12px;
+    display: flex;
+    gap: 12px;
 }
