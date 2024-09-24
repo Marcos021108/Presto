@@ -137,5 +137,16 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .filha1 p {
+    size: 16px;
+  }
+  .juncao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
