@@ -91,3 +91,47 @@ footer img {
   gap: 10px;
   border-radius: 4px;
 }
+
+.menu_ham {
+  display: none;
+}
+
+@media (max-width: 1158px) {
+  .cabecalho {
+    padding: 34px 64px;
+  }
+  .cabecalho .menu {
+    display: none;
+  }
+
+  .cabecalho .menu_ham {
+    display: flex;
+    width: 30px;
+    height: 30px;
+  }
+
+  .cabecalho .logo h1 {
+    display: none;
+  }
+  .cabecalho .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 0px 30px 0px 30px;
+  }
+
+  footer img {
+    position: fixed;
+    bottom: 0;
+    right: 35%;
+  }
+
+  .comtainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -209,6 +209,7 @@ label {
   .principal {
     display: flex;
     gap: 16px;
+    flex-direction: column;
   }
 
   label {
