@@ -92,19 +92,20 @@ footer img {
   border-radius: 4px;
 }
 
-.menu_ham {
+.menu_hamb {
   display: none;
 }
 
-@media (max-width: 1158px) {
+@media (max-width: 1150px) {
   .cabecalho {
     padding: 34px 64px;
   }
+
   .cabecalho .menu {
     display: none;
   }
 
-  .cabecalho .menu_ham {
+  .cabecalho .menu_hamb {
     display: flex;
     width: 30px;
     height: 30px;
@@ -127,11 +128,14 @@ footer img {
   footer img {
     position: fixed;
     bottom: 0;
-    right: 35%;
+    right: 40%;
   }
 
   .comtainer {
     display: flex;
     flex-direction: column;
+  }
+  .cabecalho {
+    margin-bottom: 950px;
   }
 }
