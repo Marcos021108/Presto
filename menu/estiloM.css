@@ -55,8 +55,9 @@ footer img {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 24px 120px 24px 120px;
+  margin: 24px 120px 24px 120px;
   gap: 32px;
+  margin: 25%;
 }
 
 .prato1 img {
@@ -96,7 +97,7 @@ footer img {
   display: none;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 991px) {
   .cabecalho {
     padding: 34px 64px;
   }
@@ -128,7 +129,7 @@ footer img {
   footer img {
     position: fixed;
     bottom: 0;
-    right: 40%;
+    right: 43%;
   }
 
   .comtainer {
@@ -136,6 +137,6 @@ footer img {
     flex-direction: column;
   }
   .cabecalho {
-    margin-bottom: 950px;
+    margin-bottom: 50px;
   }
 }
