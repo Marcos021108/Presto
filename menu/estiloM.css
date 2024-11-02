@@ -55,10 +55,10 @@ footer img {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 24px 120px 24px 120px;
+  height: 100%;
   gap: 32px;
-  margin-left: 15%;
-  margin-right: 15%;
+  max-width: 1000px;
+  padding: 0px 16px;
 }
 
 .prato1 img {
@@ -92,100 +92,4 @@ footer img {
   padding: 4px 11px 4px 11px;
   gap: 10px;
   border-radius: 4px;
-}
-
-.menu_hamb {
-  display: none;
-}
-
-.cabecalho {
-  margin-bottom: 10%;
-}
-
-@media (min-width: 709px) and (max-width: 1087px) {
-  .cabecalho {
-    padding: 34px 64px;
-  }
-
-  .cabecalho .menu {
-    display: none;
-  }
-
-  .cabecalho .menu_hamb {
-    display: flex;
-    width: 30px;
-    height: 30px;
-  }
-
-  .cabecalho .logo h1 {
-    display: none;
-  }
-  .cabecalho .logo img {
-    width: 40px;
-    height: 40px;
-  }
-
-  footer {
-    display: flex;
-    justify-content: center;
-    padding: 0px 30px 0px 30px;
-  }
-
-  footer img {
-    position: fixed;
-    bottom: 0;
-    right: 43%;
-  }
-
-  .comtainer {
-    display: flex;
-    flex-direction: column;
-  }
-  .cabecalho {
-    margin-bottom: 30%;
-  }
-}
-
-@media (max-width: 709px) {
-  .cabecalho {
-    padding: 34px 64px;
-  }
-
-  .cabecalho .menu {
-    display: none;
-  }
-
-  .cabecalho .menu_hamb {
-    display: flex;
-    width: 30px;
-    height: 30px;
-  }
-
-  .cabecalho .logo h1 {
-    display: none;
-  }
-  .cabecalho .logo img {
-    width: 40px;
-    height: 40px;
-  }
-
-  footer {
-    display: flex;
-    justify-content: center;
-    padding: 0px 30px 0px 30px;
-  }
-
-  footer img {
-    position: fixed;
-    bottom: 0;
-    right: 43%;
-  }
-
-  .comtainer {
-    display: flex;
-    flex-direction: column;
-  }
-  .cabecalho {
-    margin-bottom: 100%;
-  }
 }
